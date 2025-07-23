@@ -1,4 +1,4 @@
-# ZAIN AHMAD FAHREZI PORTFOLIO PROJECT
+# TheRipperX PORTFOLIO PROJECT
 
 This is a React project developed using Vite — a modern build tool known for its high performance, Hot Module Replacement (HMR) support, and fast development time.
 
@@ -8,42 +8,11 @@ This is a React project developed using Vite — a modern build tool known for i
 
 ## 📆 Technologies Used
 
-* ⚛️ [React](https://react.dev/)
-* ⚡ [Vite](https://vitejs.dev/)
-* 💨 [Tailwind CSS](https://tailwindcss.com/) *(optional, if used)*
-* 🧪 [ESLint](https://eslint.org/) for static code analysis
-* 🔄 Fast Refresh (via Babel or SWC plugin)
-
----
-
-## 🛠️ How to Run This Project
-
-1. **Clone this repository:**
-
-   ```bash
-   git clone https://github.com/username/repo-name.git
-   cd repo-name
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-3. **Run the project locally:**
-
-   ```bash
-   npm run dev
-   ```
-
-   Then open your browser at: [http://localhost:5173](http://localhost:5173)
-
-4. **Build for production (optional):**
-
-   ```bash
-   npm run build
-   ```
+- ⚛️ [React](https://react.dev/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 💨 [Tailwind CSS](https://tailwindcss.com/) _(optional, if used)_
+- 🧪 [ESLint](https://eslint.org/) for static code analysis
+- 🔄 Fast Refresh (via Babel or SWC plugin)
 
 ---
 
@@ -69,14 +38,6 @@ Thank you for respecting the developer's work! 🙏
 
 If you find this project helpful and wish to support:
 
-* 💳 **Dana:** 0896-0433-2830
-* 🏦 **BRI Bank Account:** 0342 0107 8321 503 (Zain Ahmad Fahrezi)
-* Paypal : paypal.me/zainahmadfahrezi
+- 💳 **PP:** 099-814-8914
 
 Your support mePayns a lot and helps me continue building open-source projects. Thank you! 🙌
-
-## 🌐 Social Media
-
-* 💼 [LinkedIn](https://www.linkedin.com/in/zainahmadfahrezi)
-* 📸 Instagram: [@zain.ahmadf](https://www.instagram.com/zain.ahmadf)
-* 🎥 TikTok: [@zainahmad.f](https://www.tiktok.com/@zainahmad.f)

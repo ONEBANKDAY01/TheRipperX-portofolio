@@ -300,7 +300,7 @@ function App() {
                       textShadow:
                         "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc",
                     }}>
-                    Zain Ahmad Fahrezi
+                    TheRipperX
                   </h3>
                   <p className="text-white/80 leading-relaxed mt-4 font-cascadia text-justify">
                     Saya adalah mahasiswa Teknik Informatika di Universitas Indo
