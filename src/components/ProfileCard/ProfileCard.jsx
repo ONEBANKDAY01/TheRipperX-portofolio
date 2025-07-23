@@ -18,16 +18,9 @@ const ANIMATION_CONFIG = {
 const clamp = (value, min = 0, max = 100) =>
   Math.min(Math.max(value, min), max);
 
-const round = (value, precision = 3) =>
-  parseFloat(value.toFixed(precision));
+const round = (value, precision = 3) => parseFloat(value.toFixed(precision));
 
-const adjust = (
-  value,
-  fromMin,
-  fromMax,
-  toMin,
-  toMax
-) =>
+const adjust = (value, fromMin, fromMax, toMin, toMax) =>
   round(toMin + ((toMax - toMin) * (value - fromMin)) / (fromMax - fromMin));
 
 const easeInOutCubic = (x) =>
@@ -59,12 +52,7 @@ const ProfileCardComponent = ({
 
     let rafId = null;
 
-    const updateCardTransform = (
-      offsetX,
-      offsetY,
-      card,
-      wrap
-    ) => {
+    const updateCardTransform = (offsetX, offsetY, card, wrap) => {
       const width = card.clientWidth;
       const height = card.clientHeight;
 
@@ -79,7 +67,11 @@ const ProfileCardComponent = ({
         "--pointer-y": `${percentY}%`,
         "--background-x": `${adjust(percentX, 0, 100, 35, 65)}%`,
         "--background-y": `${adjust(percentY, 0, 100, 35, 65)}%`,
-        "--pointer-from-center": `${clamp(Math.hypot(percentY - 50, percentX - 50) / 50, 0, 1)}`,
+        "--pointer-from-center": `${clamp(
+          Math.hypot(percentY - 50, percentX - 50) / 50,
+          0,
+          1
+        )}`,
         "--pointer-from-top": `${percentY / 100}`,
         "--pointer-from-left": `${percentX / 100}`,
         "--rotate-x": `${round(-(centerX / 5))}deg`,
@@ -91,13 +83,7 @@ const ProfileCardComponent = ({
       });
     };
 
-    const createSmoothAnimation = (
-      duration,
-      startX,
-      startY,
-      card,
-      wrap
-    ) => {
+    const createSmoothAnimation = (duration, startX, startY, card, wrap) => {
       const startTime = performance.now();
       const targetX = wrap.clientWidth / 2;
       const targetY = wrap.clientHeight / 2;
@@ -224,12 +210,11 @@ const ProfileCardComponent = ({
   ]);
 
   const cardStyle = useMemo(
-    () =>
-    ({
+    () => ({
       "--icon": iconUrl ? `url("${iconUrl}")` : "none", // Memastikan URL dibungkus dengan kutip
       "--grain": grainUrl ? `url("${grainUrl}")` : "none",
       "--behind-gradient": showBehindGradient
-        ? (behindGradient ?? DEFAULT_BEHIND_GRADIENT)
+        ? behindGradient ?? DEFAULT_BEHIND_GRADIENT
         : "none",
       "--inner-gradient": innerGradient ?? DEFAULT_INNER_GRADIENT,
     }),
@@ -244,8 +229,7 @@ const ProfileCardComponent = ({
     <div
       ref={wrapRef}
       className={`pc-card-wrapper ${className}`.trim()}
-      style={cardStyle}
-    >
+      style={cardStyle}>
       <section ref={cardRef} className="pc-card">
         <div className="pc-inside">
           <div className="pc-shine" />
@@ -287,8 +271,7 @@ const ProfileCardComponent = ({
                   onClick={handleContactClick}
                   style={{ pointerEvents: "auto" }}
                   type="button"
-                  aria-label={`Contact ${name || "user"}`}
-                >
+                  aria-label={`Contact ${name || "user"}`}>
                   {contactText}
                 </button>
               </div>
