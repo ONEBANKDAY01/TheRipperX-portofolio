@@ -11,7 +11,7 @@ const Preloader = ({ onFinished }) => {
   const [fadeOut, setFadeOut] = useState(false);
   // 1. State baru untuk melacak status loading Spline
   const [isAssetLoaded, setIsAssetLoaded] = useState(false);
-  const fullText = "www.zainahmadfahrezi.com";
+  const fullText = "www.the-ripper-x-portofolio.com";
 
   // 2. Fungsi yang akan dipanggil saat Spline selesai dimuat
   const handleAssetLoad = () => {
@@ -113,7 +113,7 @@ const Preloader = ({ onFinished }) => {
                   <Github size={32} />
                 </a>
                 <a
-                  href="https://instagram.com/faq.ba.nk"
+                  href="https://instagram.com/faq.ba.nkk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#00ffdc] transition-all duration-300 transform hover:scale-110">
