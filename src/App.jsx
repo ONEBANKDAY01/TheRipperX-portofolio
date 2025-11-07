@@ -169,7 +169,7 @@ function App() {
                     <FaGithub className="h-6 w-6 text-slate-400 transition-all duration-300 group-hover:text-cyan-300" />
                   </a>
                   <a
-                    href="https://instagram.com/faq.ba.nkk"
+                    href="https://instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram Profile"
