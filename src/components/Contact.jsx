@@ -143,14 +143,14 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: <FaGithub />,
-      url: "https://github.com/ONEBANKDAY01",
+      url: "https://github.com/",
       color: "from-gray-600 to-gray-800",
       hoverColor: "hover:shadow-gray-500/25",
     },
     {
       name: "Instagram",
       icon: <FaInstagram />,
-      url: "https://instagram.com/faq.ba.nkk",
+      url: "https://instagram.com/",
       color: "from-pink-500 to-purple-600",
       hoverColor: "hover:shadow-pink-500/25",
     },
