@@ -106,14 +106,14 @@ const Preloader = ({ onFinished }) => {
                 }}
                 className="flex justify-center gap-6">
                 <a
-                  href="https://github.com/ONEBANKDAY01"
+                  href="https://github.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#00ffdc] transition-all duration-300 transform hover:scale-110">
                   <Github size={32} />
                 </a>
                 <a
-                  href="https://instagram.com/faq.ba.nkk"
+                  href="https://instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#00ffdc] transition-all duration-300 transform hover:scale-110">
