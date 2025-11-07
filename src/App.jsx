@@ -161,7 +161,7 @@ function App() {
                   transition={{ duration: 0.7, delay: 1.0, ease: "easeOut" }}
                   className="flex flex-row gap-4 mt-8">
                   <a
-                    href="https://github.com/ONEBANKDAY01"
+                    href="https://github.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub Profile"
